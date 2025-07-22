@@ -1,0 +1,46 @@
+.main__link {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.main__link:hover {
+    color: orangered;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    cursor: pointer;
+}
+
+.main__link:active {
+    text-decoration: line-through;
+}
+
+.main__link:visited {
+    color: yellow;
+}
+
+#some_id::after {
+    content: "123";
+    color: aqua;
+    text-decoration: line-through;
+}
+
+p.text:not(:empty) {
+    color: plum;    
+}
+
+p.text:not(:empty)::after {
+content: "Some";
+}
+
+input :required {
+    
+}
+input {
+color: rgb(255, 81, 0);
+border-radius: 20px;
+border-color: aliceblue;
+}
+input:focus {
+    color: rgb(253, 142, 57);
+    background-color: rgb(255, 196, 174);
+}
